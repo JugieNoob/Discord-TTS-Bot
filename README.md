@@ -2,6 +2,7 @@
 
 ## Table of Contents 📝
 - [What is this ❓](#what-is-this-question)
+- [Showcase 📺](#showcase-tv)
 - [Dependencies 📃](#dependencies-page_with_curl)
 - [How to Setup ℹ️](#how-to-setup-information_source)
 - [Commands ⌨️](#commands-keyboard)
@@ -11,6 +12,19 @@
 This Discord bot allows you to play TTS messages in the voice channel you are currently in.
 
 - If you encounter any problems with the bot please make an issue [here](https://github.com/JugieNoob/Discord-TTS-Bot/issues) and i will try my best to solve them.
+
+# Showcase :tv:
+### 1. Configuring the TTS channel.
+![Configuring the TTS channel](/imgs/1.png)
+
+### 2. Checking which TTS channel is configured.
+![Checking which TTS channel is configured](/imgs/2.png)
+
+### 3. Using the TTS command.
+![Using the TTS command](/imgs/3.png)
+
+### 4. Sending messages in the configured TTS channel.
+![Sending messages in the configured TTS channel](/imgs/4.png)
 
 ## Dependencies :page_with_curl:
 - [discord.py](https://discordpy.readthedocs.io/en/stable/)
