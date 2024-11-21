@@ -40,6 +40,8 @@ async def playTTS(ctx, msg:str):
 @bot.command("tts")
 async def self(ctx, msg:str):
     await playTTS(ctx, msg)
+    # Add a reaction to the message
+    await ctx.message.add_reaction("🗣️")
 
 @bot.command("config")
 async def self(ctx, channel:discord.TextChannel = None):
@@ -81,7 +83,9 @@ async def on_message(msg):
     # If there is a tts channel and the message was not sent from the bot, play the TTS message.
     if ttschannel != "" and not msg.author.bot:
         if msg.channel.id == int(ttschannel):
-            await playTTS(msg, msg.content)
+            await playTTS(msg, msg.content)       
+            # Add a reaction to the message
+            await msg.add_reaction("🗣️")
     
 
 
